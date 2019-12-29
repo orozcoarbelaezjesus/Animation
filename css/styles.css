@@ -82,3 +82,41 @@
     height: 300px;
   }
 }
+
+/* Desarrollo del artículo */
+
+.article {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.article h2 {
+  font-family: "Vollkorn", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.article p {
+  font-family: "Open Sans", serif;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+figure {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+figure img {
+  width: 90%;
+  height: 35vh;
+  border: 5px solid lightgray;
+  border-radius: 2%;
+  margin: auto;
+}
