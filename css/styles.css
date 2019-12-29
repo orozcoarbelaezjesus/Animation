@@ -120,3 +120,61 @@ figure img {
   border-radius: 2%;
   margin: auto;
 }
+
+/* Media Queries de la sección de artículo */
+
+@media screen and (min-width: 320px) and (max-width: 419px) {
+  .article {
+    padding: 25px;
+  }
+  .article h2 {
+    margin-top: 20px;
+  }
+  .article p {
+    font-size: 12px;
+  }
+  figure img {
+    width: 70%;
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width:420px) and (max-width:719px) {
+  .article {
+    padding: 30px;
+    text-align: left;
+  }
+  .article h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .article p {
+    text-align: left;
+  }
+  figure img {
+    width: 65%;
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width:720px) {
+  .article {
+    padding: 30px;
+    text-align: left;
+  }
+  .article h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+  .article p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  figure img {
+    width: 90%;
+    height: 70vh;
+  }
+}
