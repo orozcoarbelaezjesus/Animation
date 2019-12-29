@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Animación principal */
+
+.animation {
+  background-image: url(../img/web.jpg);
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: top left;
+  animation: movement 12s infinite linear alternate;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@keyframes movement {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
+
+.effect {
+  background-color: #b5b5b5;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.main_title {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  font-family: "Vollkorn" , sans-serif;
+  color: #fff;
+  z-index: 2;
+}
+
+/* Media Quaries de la animación */
+
+@media screen and (min-width:320px) and (max-width: 419px) {
+  .animation {
+    background-size: 150%;
+    font-size: 16px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width:420px) and (max-width:719px) {
+  .animation {
+    background-size: 120%;
+    font-size: 20px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width:720px) and (max-width:1023px) {
+  .animation {
+    background-size: 115%;
+    font-size: 26px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .animation {
+    background-size: 110%;
+    font-size: 32px;
+    height: 300px;
+  }
+}
