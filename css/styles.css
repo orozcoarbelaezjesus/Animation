@@ -151,6 +151,7 @@ figure img {
   }
   .article p {
     text-align: left;
+    font-size: 16px;
   }
   figure img {
     width: 65%;
@@ -167,10 +168,10 @@ figure img {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 15px;
-    font-size: 26px;
+    font-size: 32px;
   }
   .article p {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 15px;
   }
   figure img {
